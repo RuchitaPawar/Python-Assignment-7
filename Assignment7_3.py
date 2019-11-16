@@ -41,7 +41,7 @@ def main():
     else:
         print("number is prime", )
 
-    perfectRes = Obj1.chkPerfect(0)
+    perfectRes = Obj1.chkPerfect(acceptedValue)
     if (perfectRes == acceptedValue):
         print("number is perfect")
     else:
