@@ -26,12 +26,11 @@ class Numbers:
                 arr.append(x)
         return arr
 
-    def SumFactor(self, arr):
+     def SumFactor(self, arr):
         sumFact = 0
-        for x in range(1, len(arr)):
-            sumFact = sumFact + x
+        for x in range(0, len(arr)):
+            sumFact = sumFact + arr[x]
         return sumFact
-
 
 def main():
     Obj1 = Numbers(0);
